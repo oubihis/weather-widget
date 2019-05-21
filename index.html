@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>App.Weather </title>
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+  <p class="wrapper__title">App.Weather</p>
+  <div class="widget">
+    <div class="widget__section thin-bar">
+      <div class="nav">
+        <div class="nav__button nav__button-red">
+          <svg height="30" width="30">
+            <circle cx="18" cy="18" r="7.5" fill="#ff605c" />
+          </svg>
+        </div>
+        <div class="nav__button nav__button-yellow">
+          <svg height="30" width="30">
+            <circle cx="18" cy="18" r="7.5" fill="#ffbf45" />
+          </svg>
+        </div>
+        <div class="nav__button nav__button-green">
+          <svg height="30" width="30">
+            <circle cx="18" cy="18" r="7.5" fill="#00c94c" />
+          </svg>
+          <p class="nav__title"></p>
+        </div>
+      </div>
+
+      
+    </div>
+    <div class="widget__section">
+      <p class="section__weather hour"></p>
+      <br/>
+      <p class="section__weather city"></p>
+      <p class="temp"></p>
+      <canvas class="wthr icon" width="50" height="50"></canvas>
+    </div>
+  </div>
+</div>
+
+<script src="skycons.js"></script>
+<script src="app.js"></script>
+
+</body>
+
+</html>

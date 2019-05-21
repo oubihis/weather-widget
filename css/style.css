@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700");
+html,
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: auto;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  font-family: "Karla", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper__title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100vmin;
+}
+
+.widget,
+.widget__section {
+  display: flex;
+  overflow: hidden;
+}
+
+.widget {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+  height: 9rem;
+  margin: auto;
+  position: relative;
+  width: 30rem;
+}
+
+.thin-bar {
+  margin-top: 3rem;
+}
+
+.widget__section {
+/*  border-bottom: 1.5px solid #ddd;
+  height: 8rem;
+  width: 100%;*/
+}
+
+#no-bar {
+  border-bottom: none;
+}
+
+.nav {
+  height: 2.8rem;
+}
+
+.nav__button {
+  position: absolute;
+  top: 0.5rem;
+}
+
+.nav__button-red {
+  left: 0.5rem;
+}
+
+.nav__button-yellow {
+  left: 2rem;
+}
+
+.nav__button-green {
+  left: 3.5rem;
+}
+
+.nav__title {
+  font-size: 1.1rem;
+  left: 9em;
+  top: -0.5em;
+}
+
+.nav__title,
+.section__weather,
+.temp {
+  color: #444;
+  position: absolute;
+}
+
+.hour {
+  font-size: 1.25rem;
+  left: 0.9em;
+}
+
+.hour {
+  top: 3.85em;
+}
+
+
+.city {
+  font-size: 1.75rem;
+  left: 0.65em;
+}
+
+.city {
+  top: 1.4em;
+}
+
+.wthr {
+  position: absolute;
+  right: 2.5rem;
+}
+
+.wthr {
+  top: 3rem;
+  width: 3rem;
+}
+
+
+.temp {
+  font-size: 2.6rem;
+  right: 2.1em;
+}
+
+.temp {
+  top: 1em;
+}
+
