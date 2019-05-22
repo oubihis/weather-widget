@@ -28,20 +28,20 @@ window.addEventListener('load', () => {
 					let temperatureC = (5/9) * (temperature - 32);
 					let temp = Number(temperatureC);
 					let convertFtoC = temp.toFixed(2);
-					temperatureTemp.textContent = Number(convertFtoC) + "°";
+					temperatureTemp.textContent = Number(convertFtoC) + "°C" ;
+
 					temperatureCity.textContent = dataWeather.timezone;
 					temperatureHour.textContent = time.getHours() + ":" 
 					+ (time.getMinutes()<10?'0':'') 
 					+ time.getMinutes(); // display two digit numbers - getMinutes() 0-9
 				})
-	  });
-	}
-
-	function setIcons(icon, iconID) {
-		const skycons = new Skycons({color: "#444"});
-		const currentIcon = icon.replace(/-/g, "_").toUpperCase();
-		skycons.play();
-		return skycons.set(iconID, Skycons[currentIcon]);
+	    });
+		function setIcons(icon, iconID) {
+			const skycons = new Skycons({color: "#444"});
+			const currentIcon = icon.replace(/-/g, "_").toUpperCase();
+			skycons.play();
+			return skycons.set(iconID, Skycons[currentIcon]);
+		};
 	}
 
 });
