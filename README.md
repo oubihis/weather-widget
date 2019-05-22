@@ -6,7 +6,7 @@ The interface of the Weather Widget
 
 ## About Weather Widget
 
-I use Vanilla Javascript for this project, is fast & easy, by using https://darksky.net api to pull all the necessary weather information we need, is free '1000 api calls'.
+I use [Vanilla Javascript](http://vanilla-js.com/) for this project, is fast & easy, by using https://darksky.net api to pull all the necessary weather information we need, is free '1000 api calls'.
 For icons i use [Skycons](https://github.com/darkskyapp/skycons) is Opensource you can get here in github.
 
 ## Design
